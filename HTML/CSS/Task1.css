@@ -1,0 +1,151 @@
+header {
+	background-color: #333333;
+	width: 100%;
+	height: 100px;
+}
+
+nav {
+	list-style-type: none;
+	padding-top: 30px;
+	padding-left: 825px;
+	margin: 0px;
+	overflow: hidden;
+}
+a { 
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 8px;
+	background-color: #232323;
+	color: orange;
+}
+
+section#slider {
+	background-color: #333333;
+	width: 960px;
+	height: 360px;
+	margin-left: 200px;
+	margin-top: 70px; 
+	color: white;
+	text-align: center;
+}
+
+section#dummyLorem1 {
+	margin-top: 70px;
+	margin-left: 200px;
+	color: black;
+	width: 200px;
+	height: 32px;
+}
+
+h5#dummyLorem1 {
+	margin-top: -25px;
+	margin-left: 40px;
+	color: grey;
+	font-size: 15px;
+}
+p.ReadMoreLorem1
+{
+	margin-left: 120px;
+	margin-top: -8px;
+	font-size: 11px;
+	color: orange;
+}
+
+section#dummyLorem2 {
+	margin-left: 450px;
+	margin-top: -30px;
+	color: black;
+	width: 200px;
+	height: 32px;
+}
+
+h5#dummyLorem2 {
+	color: grey;
+	font-size: 15px;
+	margin-top: -25px;
+	margin-left: 40px;
+}
+p.ReadMoreLorem2{
+	margin-left: 125px;
+	margin-top: -10px;
+	font-size: 11px;
+	color: orange;
+}
+
+section#dummyLorem3 {
+	margin-left: 700px;
+	margin-top: -30px;
+	color: black;
+	width: 200px;
+	height: 32px;
+}
+h5#dummyLorem3 {
+	margin-top: -25px;
+	margin-left: 40px;
+	color: grey;
+	font-size: 15px;
+}
+p.ReadMoreLorem3 {
+	margin-left: 125px;
+	margin-top: -10px;
+	font-size: 11px;
+	color: orange;
+}
+
+section#dummyLorem4 {
+	margin-left: 950px;
+	margin-top: -30px;
+	color: black;
+	width: 200px;
+	height: 32px;
+}
+h5#dummyLorem4 {
+	margin-top: -25px;
+	margin-left: 40px;
+	color: grey;
+	font-size: 15px;
+}
+p.ReadMoreLorem4 {
+	margin-left: 125px;
+	margin-top: -10px;
+	font-size: 11px;
+	color: orange;
+}
+
+hr{
+	margin-top: 140px;
+}
+
+section#Box1 {
+	margin-left: 200px;
+	background-color: #333333;
+	width: 290px;
+	height: 180px;
+	color: white;
+	text-align: center;
+}
+
+section#Box2 {
+	margin-left: 530px;
+	margin-top: -180px;
+	background-color: #333333;
+	width: 290px;
+	height: 180px;
+	color: white;
+	text-align: center;
+}
+
+section#Box3 {
+	margin-left: 860px;
+	margin-top: -180px;
+	background-color: #333333;
+	width: 290px;
+	height: 180px;
+	color: white;
+	text-align: center;
+}
+
+hr#Box {
+	margin-top: 10px;
+}
