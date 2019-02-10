@@ -1,0 +1,163 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	background-color: #333;
+	height: 100px;
+	display: flex;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #aaa;
+	height: 50px;
+	margin: 25px 170px 0px 645px;
+}
+
+.navbar a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar a:hover {
+	color: orange;
+}
+
+.sliderSectionContainer {
+	display: flex;
+	height: 300px;
+	justify-content: space-around;
+	margin: 50px 170px 0px 170px;
+	color: white;
+	text-align: center;
+}
+
+/*.sliderSection > div {
+	height: 300px;
+}*/
+
+.leftSection {
+	flex-basis: 330px;
+	background-color: #dedede;
+	text-align: left;
+	padding: 10px;
+}
+
+.leftSection #h {
+	font-size: 34px;
+	color: #98999d;
+}
+
+.leftSection #paraLeftSection {
+	color: #98999d;
+}
+
+.leftSection #readMore {
+	margin-left: 230px;
+	color: orange;
+}
+
+.rightSection {
+	flex-basis: 630px; /* flex-basis is for width so, no need of width attribute */
+	background-color: #333;
+}
+
+.smallBoxes {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 155px 0px 155px; 
+}
+
+.hFontStyle {
+	font-size: 15px;
+	font-family: 'Suez One', serif;
+}
+
+.smallBox1 {
+	flex-basis: 300px; /* flex-basis is for width so, no need of width attribute */
+	box-sizing: border-box;
+}
+
+#readMoreParaSmallBox1{
+	padding-left: 200px;
+	color: orange;
+}
+
+.smallBox2 {
+	flex-basis: 300px; /* flex-basis is for width so, no need of width attribute */
+}
+
+
+#readMoreParaSmallBox2{
+	padding-left: 200px;
+	color: orange;
+}
+
+.smallBox3 {
+	flex-basis: 300px; /* flex-basis is for width so, no need of width attribute */
+}
+
+#readMoreParaSmallBox3{
+	padding-left: 200px;
+	color: orange;
+}
+
+.bottomSections {
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 860px;
+	margin: 50px 160px 0px 160px;
+}
+
+.botSection1 {
+	flex-basis: 215px;
+	word-wrap: break-word;
+}
+
+.botSection2 {
+	flex-basis: 215px;
+	word-wrap: break-word;
+}
+
+.botSection3 {
+	flex-basis: 215px;
+	word-wrap: break-word;
+}
+
+.botSection4 {
+	flex-basis: 215px;
+	word-wrap: break-word;
+}
+
+.botSection1RM {
+	padding-left: 120px;
+	color: orange;
+}
+
+.botSection2RM {	
+	padding-left: 120px;
+	color: orange;
+}
+
+.botSection3RM {
+	padding-left: 120px;
+	color: orange;
+}
+
+.botSection4RM {
+	padding-left: 120px;
+	color: orange;
+}
+
+.footer {
+	background-color: #222;
+	text-align: center;
+	color: white;
+	max-height: 50px;
+	padding: 25px;
+}
